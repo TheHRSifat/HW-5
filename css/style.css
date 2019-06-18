@@ -1,0 +1,268 @@
+body{
+	font-family: 'Playfair Display', serif;
+	color: #616161;
+}
+/*header section*/
+header{
+
+}
+.wrapper{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 60px;
+}
+.logo{
+	width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 6px;
+}
+.logo img{
+	width: 100%;
+}
+nav{
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+text-decoration: none;
+	font-size: 17px;
+	padding: 0 80px;
+	display: block;
+	color: black;
+	transition: .4s;
+	font-family: 'Playfair Display', serif;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*banner start*/
+
+.ban-img{
+	margin-top: 50px;
+}
+.ban-img img{
+	width: 100%;
+}
+
+/*banner end*/
+
+/*paragraph start*/
+.paragraph{
+	margin-top: 90px;
+}
+.wrapper-1{
+	width: 82%;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+}
+.photography ,.leave ,.first-text ,.second-text{
+	font-family: 'Ubuntu', sans-serif;
+	color: #B3AC9D;
+}
+.photography p{
+	
+	font-size: 14px;
+
+}
+.para{
+	
+}
+.para  h1{
+	font-weight: 400;
+	font-size: 33px;
+}
+.para p{
+	word-spacing: 1px;
+	font-size: 17px;
+	line-height: 25px;
+
+}
+.leave p{
+	padding-top: 42px;
+	font-size: 17px;
+}
+
+
+/*paragraph end*/
+
+/*lifestyle section start*/
+.lifestyle , .photo , .lifestyle_2{
+	margin-top: 140px;
+	margin-bottom: 140px;
+}
+.first-row{
+
+}
+.first-column {
+	width: 47%;
+	/*border: 1px solid red;*/
+	display: inline-block;
+}
+.first-column  img{
+	width: 100%;
+	    height: 440px;
+}
+.first-column-content{
+
+}
+.first-column-content h1{
+	font-weight: 400;
+	font-size: 33px;
+}
+.first-column-content ,.second-column-content p{
+	    word-spacing: 1px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.second-column{
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.second-column img{
+	width: 100%;
+	height: 440px;
+}
+.second-column-content {
+
+}
+.second-column-content h1{
+	font-weight: 400;
+	font-size: 33px;
+	margin: 0;
+}
+
+/*lifestyle end*/
+
+/*email section start*/
+.email{
+
+}
+.container{
+	background-color: #EFEFEF;
+	min-height: 300px;
+}
+.container h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	font-size: 37px;
+	font-weight: normal;
+	color: black;
+}
+form{
+	 width: 350px;
+    margin: 0 auto;
+    text-align: center;
+	position: relative;
+}
+.input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 84%;
+	padding: 15px 40px 10px 5px;
+	outline: none;
+	font-size: 16px;
+}
+.button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 13px;
+    right: 1px;
+}
+
+/*email end*/
+
+/*button section start*/
+.btn{
+
+}
+.container_1{
+	text-align: center;
+	font-size: 20px;
+}
+.container_1 button{
+	    padding: 25px 40px;
+	    font-size: 24px;
+	    background: transparent;
+	    border: 1px solid black;
+	    outline: none;
+	    margin-top: 30px;
+	    margin-bottom: 160px;
+}
+/*button end*/
+
+/*footer section start*/
+footer{
+
+}
+.container_2{
+	background-color: #EFEFEF;
+	overflow: hidden;
+}
+.footer-content{
+	/*border:1px solid red;*/
+	width: 30%;
+	display: inline-block;
+}
+.footer-content ul{
+	float: left;
+	padding-top: 24px;
+	padding-left: 210px;
+	padding-bottom: 24px;
+}
+.footer-content ul li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+
+}
+.footer-content ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+.follow{
+	/*border: 1px solid red;*/
+	width: 50%;
+	float: right;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	padding-right: 130px;
+}
+.follow p{
+	display: inline-block;
+	padding-left: 792px;
+	padding-top: 4px;
+	color: black;
+}
+.follow-link{
+	float: right;
+}
+.follow-link a{
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	
+}
+.follow-link a img{
+
+}
+/*footer end*/
