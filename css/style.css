@@ -220,13 +220,13 @@ footer{
 }
 .footer-content{
 	/*border:1px solid red;*/
-	width: 30%;
+	width: 40%;
 	display: inline-block;
 }
 .footer-content ul{
 	float: left;
 	padding-top: 24px;
-	padding-left: 210px;
+	padding-left: 143px;
 	padding-bottom: 24px;
 }
 .footer-content ul li{
@@ -244,17 +244,18 @@ footer{
 	width: 50%;
 	float: right;
 	padding-top: 25px;
-	padding-bottom: 30px;
-	padding-right: 130px;
+	padding-right: 96px;
+}
+
+.follow-link{
+	float: right;
+	padding-right: 70px;
 }
 .follow p{
 	display: inline-block;
-	padding-left: 792px;
 	padding-top: 4px;
 	color: black;
-}
-.follow-link{
-	float: right;
+	float: left;
 }
 .follow-link a{
 	float: left;
